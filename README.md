@@ -1,5 +1,5 @@
 # FDA_Drug_Water
-The waters are saved in the pdb files.\
+The water molecules are saved in the pdb files.\
 In each PDB file, water molecules are deposited using the following format.
 
 AtomType|ID|Atom|Name| ID|           X|     Y|      Z|Occupy|DeltaG|
@@ -11,6 +11,6 @@ HETATM    5 O    H2O     5      48.422  52.751  23.794 0.981  -3.5           O-1
 HETATM    6 O    H2O     6      50.427  51.843  25.280 0.721  -3.3           O-1
   
 
-The Unit for the DeltaG column is kJ/mol(Corresponding to the B-factor column in PDB file).\
+The Unit for the "DeltaG column" is kJ/mol(Corresponding to the B-factor column in PDB file).\
 The Occupy column shows the occupation rate of the hydration site by a watermolecule during the molecular dynamic simulations.
 
